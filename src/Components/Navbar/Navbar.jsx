@@ -1,6 +1,6 @@
 import React, { useState,useContext } from 'react';
 import "./Navbar.css";
-import logo from '../Assets/logo.png';
+import logo from '../Assets/f10.png';
 import cart from '../Assets/cart_icon.png';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
@@ -22,7 +22,7 @@ export default function Navbar() {
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="Error" />
-            <p>SHOPPER</p>
+            <p>fashionfare</p>
         </div>
 
         <div className={mobileMenu ? 'nav-menubar' : 'nav-menubar hide'}>
